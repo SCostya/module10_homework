@@ -21,8 +21,8 @@ if ((typeof y == 'number' || 'bigInt') && !(isNaN(y))) {
 }
 
 let z = true
-const typeX = typeof z;
-console.log(typeX)
+const typeZ = typeof z;
+console.log(typeZ)
 if ((typeof z == 'number' || typeof z == 'bigInt') && !(isNaN(z))) {
     console.log(z + '- число')
 } else if (typeof z == 'string') {
